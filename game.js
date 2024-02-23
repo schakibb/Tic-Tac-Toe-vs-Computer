@@ -357,39 +357,3 @@ newGameBtn.addEventListener("click", startNewGame);
 // Event listener for selecting ❌ or ⭕ symbol.
 choosingX.addEventListener("click", () => handlePlayerSelectionSymbol("X"));
 choosingO.addEventListener("click", () => handlePlayerSelectionSymbol("O"));
-
-// function computerMove() {
-//   const emptyCells = [];
-//   board.forEach((cell, index) => {
-//     if (!cell) {
-//       emptyCells.push(index);
-//     }
-//   });
-//   const randomIndex = Math.floor(Math.random() * emptyCells.length);
-//   updateCell(bloc[emptyCells[randomIndex]], emptyCells[randomIndex]);
-// }
-
-// function computerTurn() {
-//   for (const item of WIN_CONDITIONS) {
-//     let num = 0;
-//     let index = "";
-//     for (const item2 of item) {
-//         num++;
-//       } else {
-//         index = item2;
-//       }
-//     }
-//     if (num === 2) {
-//       return;
-//     }
-//   }
-
-//   let emptyIndices = [];
-//   for (let i = 0; i < BOARD_SIZE; i++) {
-//       emptyIndices.push(i);
-//     }
-//   }
-
-//   // If no winning move is found, select a random empty square
-//   let randomIndex = Math.floor(Math.random() * emptyIndices.length);
-// }
