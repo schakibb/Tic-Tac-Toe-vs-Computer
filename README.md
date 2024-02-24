@@ -9,7 +9,6 @@ This is a simple Tic Tac Toe game implemented in JavaScript. It allows the playe
 ## Table of Contents
 
 - [Features](#features)
-- [Setup](#setup)
 - [How to Play](#how-to-play)
 - [Game Logic](#game-logic)
 
